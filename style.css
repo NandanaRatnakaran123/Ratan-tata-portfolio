@@ -176,6 +176,9 @@ ul li a:hover{
     background-color: rgb(163 163 163);
     
 }
+.career h3:hover{
+    font-size: 39px;
+}
 .tata-steel{
     font-size: 20px;
     font-weight: bold;
@@ -186,6 +189,9 @@ ul li a:hover{
     text-align: center;
     color: aliceblue;
     background: linear-gradient(180deg, hsl(240deg 6% 16%) 0%, hsl(260deg 4% 22%) 12%, hsl(280deg 3% 27%) 23%, hsl(305deg 2% 33%) 33%, hsl(324deg 2% 39%) 42%, hsl(337deg 2% 46%) 50%, hsl(348deg 2% 52%) 58%, hsl(357deg 2% 59%) 65%, hsl(5deg 3% 66%) 72%, hsl(12deg 3% 72%) 79%, hsl(18deg 3% 79%) 85%, hsl(24deg 4% 86%) 92%, hsl(30deg 6% 94%) 100%);
+}
+.achievements h3:hover{
+    font-size: 39px ;
 }
 .achive{
     background: linear-gradient(0deg, hsl(0deg 0% 0%) 0%, hsl(30deg 3% 9%) 27%, hsl(30deg 2% 15%) 42%, hsl(30deg 1% 22%) 52%, hsl(30deg 1% 29%) 60%, hsl(30deg 1% 36%) 66%, hsl(30deg 1% 44%) 71%, hsl(30deg 1% 52%) 76%, hsl(30deg 1% 60%) 80%, hsl(30deg 1% 68%) 84%, hsl(30deg 2% 76%) 88%, hsl(30deg 3% 85%) 93%, hsl(30deg 6% 94%) 100%);
@@ -227,6 +233,9 @@ ul li a:hover{
     hsl(53deg 6% 70%) 100%);
     text-align: center;
     color: bisque
+}
+.awards h3:hover{
+    font-size: 39px ;
 }
 .tata-awards{
     background-color:black ;
@@ -275,6 +284,9 @@ ul li a:hover{
     hsl(53deg 6% 70%) 100%);
     text-align: center;
     color: bisque
+}
+.pro h3:hover{
+    font-size: 39px ;
 }
 .tata-projects{
     border: 2px solid rgb(198, 109, 109);
@@ -335,6 +347,9 @@ ul li a:hover{
     width: 100%;
     display: block;
     clear: both;
+}
+.quotes-head:hover{
+    font-size: 39px;
 }
 .quotes div{
     width: 382px;
