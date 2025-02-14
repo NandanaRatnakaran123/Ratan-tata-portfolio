@@ -40,6 +40,9 @@ ul li a{
     color:azure ;
     cursor: pointer;
 }
+ul li a:hover{
+    color: #ae2a2a;
+}
 .images{
     position: absolute;
     float: left;
@@ -182,48 +185,22 @@ ul li a{
 .achievements h3{
     text-align: center;
     color: aliceblue;
-    background: linear-gradient(180deg,
-    hsl(240deg 33% 2%) 0%,
-    hsl(264deg 12% 8%) 6%,
-    hsl(287deg 11% 12%) 12%,
-    hsl(315deg 12% 16%) 18%,
-    hsl(332deg 15% 20%) 26%,
-    hsl(345deg 17% 25%) 34%,
-    hsl(356deg 18% 30%) 42%,
-    hsl(7deg 20% 34%) 52%,
-    hsl(16deg 23% 37%) 61%,
-    hsl(24deg 24% 40%) 71%,
-    hsl(32deg 24% 42%) 81%,
-    hsl(42deg 23% 45%) 91%,
-    hsl(55deg 19% 47%) 100%);
+    background: linear-gradient(180deg, hsl(240deg 6% 16%) 0%, hsl(260deg 4% 22%) 12%, hsl(280deg 3% 27%) 23%, hsl(305deg 2% 33%) 33%, hsl(324deg 2% 39%) 42%, hsl(337deg 2% 46%) 50%, hsl(348deg 2% 52%) 58%, hsl(357deg 2% 59%) 65%, hsl(5deg 3% 66%) 72%, hsl(12deg 3% 72%) 79%, hsl(18deg 3% 79%) 85%, hsl(24deg 4% 86%) 92%, hsl(30deg 6% 94%) 100%);
 }
 .achive{
-    background: linear-gradient( 180deg,
-    hsl(51deg 56% 13%) 0%,
-    hsl(49deg 36% 20%) 8%,
-    hsl(48deg 26% 26%) 17%,
-    hsl(47deg 20% 33%) 25%,
-    hsl(46deg 15% 39%) 33%,
-    hsl(46deg 12% 46%) 42%,
-    hsl(46deg 10% 54%) 50%,
-    hsl(45deg 10% 61%) 58%,
-    hsl(45deg 10% 68%) 67%,
-    hsl(45deg 11% 76%) 75%,
-    hsl(44deg 11% 83%) 83%,
-    hsl(44deg 10% 91%) 92%,
-    hsl(0deg 0% 99%) 100%);
+    background: linear-gradient(0deg, hsl(0deg 0% 0%) 0%, hsl(30deg 3% 9%) 27%, hsl(30deg 2% 15%) 42%, hsl(30deg 1% 22%) 52%, hsl(30deg 1% 29%) 60%, hsl(30deg 1% 36%) 66%, hsl(30deg 1% 44%) 71%, hsl(30deg 1% 52%) 76%, hsl(30deg 1% 60%) 80%, hsl(30deg 1% 68%) 84%, hsl(30deg 2% 76%) 88%, hsl(30deg 3% 85%) 93%, hsl(30deg 6% 94%) 100%);
     width: 100%;
     height: 367px;
 }
 .achive div{
     width: 250px;
   height: 70px;
-  background: rgb(207, 100, 100);
+  background: rgb(106, 102, 102);
   transition: width 2s, height 4s;
     border: 1px solid;
     float: left;
     margin: 10px;
-    margin-left: 5px;
+    margin-left: 25px;
 }
 .achive div:hover{
     width: 300px;
@@ -336,34 +313,77 @@ ul li a{
     hsl(0deg 0% 99%) 100%);
 }
 /* quotes */
-.quotes{
+.quotes-head{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg,
+    hsl(240deg 13% 3%) 0%,
+    hsl(262deg 3% 9%) 8%,
+    hsl(289deg 2% 14%) 17%,
+    hsl(317deg 3% 19%) 25%,
+    hsl(335deg 3% 24%) 33%,
+    hsl(347deg 3% 30%) 42%,
+    hsl(358deg 3% 36%) 50%,
+    hsl(8deg 4% 41%) 58%,
+    hsl(16deg 4% 47%) 67%,
+    hsl(23deg 4% 53%) 75%,
+    hsl(31deg 5% 58%) 83%,
+    hsl(40deg 6% 64%) 92%,
+    hsl(53deg 6% 70%) 100%);
+    text-align: center;
+    color: bisque;
     width: 100%;
-    height: 300px;
-    background-color: rgb(35, 33, 33);
+    display: block;
+    clear: both;
 }
 .quotes div{
     width: 382px;
     height: 97px;
     border-radius: 9px;
     float: left;
-    margin-left: 35px;
+   background-color: black;
+   margin-left: 32px;
     border: 3px solid rgb(129, 70, 70);
     margin-top: 10px;
     color: wheat;
 }
-.quotes div i{
-    font-size: 20px;
+.quotes{
+    background: linear-gradient( 0deg,
+    hsl(240deg 13% 3%) 0%,
+    hsl(240deg 2% 11%) 8%,
+    hsl(240deg 1% 18%) 17%,
+    hsl(240deg 1% 25%) 25%,
+    hsl(240deg 1% 32%) 33%,
+    hsl(240deg 0% 39%) 42%,
+    hsl(240deg 0% 47%) 50%,
+    hsl(240deg 0% 56%) 58%,
+    hsl(240deg 0% 64%) 67%,
+    hsl(240deg 0% 72%) 75%,
+    hsl(240deg 0% 81%) 83%,
+    hsl(240deg 0% 90%) 92%,
+    hsl(0deg 0% 99%) 100%);
+    width: 100%;
+    height: 272px;
     
 }
-.quotes h3{
-    font-size: 20px;
-    color: white;
-    background-color: black;
-    padding-left: 30px;
-    text-align: center;
-    width: 100%;
 
+.quotes-text{
+    border: 2px solid rgb(198, 109, 109);
+    box-shadow: grey;
+    width: 200px;
+    height: 60px;
+    color: black;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+.quotes-text i{
+    font-size: 20px;
+    padding: 20px;
+}
+/* end */
 .end{
     background-color: black;
     color: white;
